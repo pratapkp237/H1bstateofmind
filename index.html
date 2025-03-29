@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H1B State of Mind | Coaching for Immigrants</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    nav {
+      background-color: #a5d0cb;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      font-size: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      position: relative;
+    }
+    nav a:hover::after,
+    nav a.active::after {
+      content: "";
+      display: block;
+      height: 2px;
+      background: white;
+      position: absolute;
+      width: 100%;
+      bottom: -5px;
+      left: 0;
+    }
+    header {
+      height: 100vh;
+      background: url('https://via.placeholder.com/1600x900') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 30px;
+    }
+    header a {
+      background: white;
+      color: #2a5298;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #2a5298;
+    }
+    .service-box {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-form input, .contact-form textarea {
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .contact-form button {
+      padding: 10px;
+      background-color: #2a5298;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #f7f7f7;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+    <a href="https://koalendar.com/e/meet-with-pratap-krishnan" target="_blank">Register</a>
+  </nav>
+
+  <header>
+    <h1>H1B State of Mind</h1>
+    <p>Coaching immigrants to thrive in the U.S. — with clarity, connection, and confidence.</p>
+    <a href="https://koalendar.com/e/meet-with-pratap-krishnan" target="_blank">Book a Free Discovery Call</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Pratap Krishnan, a data scientist by profession with experience at companies like 84.51 and Instacart. I've lived and worked in cities across the U.S., Canada, and India—including San Francisco, Seattle, Toronto, Cincinnati, New Delhi, and Bangalore.</p>
+    <p>Having traveled extensively through Asia, Latin America, and North America, I bring a global lens to everything I do. My mission is to support and empower those on the immigrant journey—helping them navigate transitions, build meaningful connections, and thrive in new environments.</p>
+  </section>
+
+  <section id="services">
+    <h2>Coaching Services</h2>
+    <div class="service-box">
+      <h3>1:1 Coaching Sessions</h3>
+      <p>Personalized coaching for immigrants navigating career transitions, visa stress, cultural shifts, and long-term clarity. These sessions are tailored to your goals and provide structured yet flexible support.</p>
+    </div>
+    <div class="service-box">
+      <h3>Career Growth Guidance</h3>
+      <p>Get help with resume reviews, job interview preparation, offer negotiation, and long-term career strategy. My focus is on equipping you to succeed and grow authentically in your professional journey.</p>
+    </div>
+    <div class="service-box">
+      <h3>Settling In Support</h3>
+      <p>Guidance on finding community, building confidence, and navigating everyday cultural transitions in the U.S. We'll also explore mindset tools to help you feel empowered and grounded wherever you are.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to learn more or get started? Reach out and let’s talk about your journey. You can also email me directly at <a href="mailto:pratapkp237@gmail.com">pratapkp237@gmail.com</a></p>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 H1B State of Mind 
+  </footer>
+</body>
+</html>
